@@ -127,6 +127,11 @@ main p {
   text-align: justify;
 }
 
+p.address {
+  font-size: 14px;
+  opacity: 0.7;
+}
+
 main .activities-content {
   background: #f8f8f8f8;
 }
@@ -221,6 +226,10 @@ footer p {
 
   footer {
     padding: 20px;
+  }
+
+  p.address {
+    text-align: center;
   }
 
   .container {
