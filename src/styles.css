@@ -143,6 +143,15 @@ main .activities-content {
   padding: 40px;
 }
 
+.card .grid {
+  grid-gap: 0;
+}
+
+.embed {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+
 footer {
   background-image: linear-gradient(
       rgba(26, 21, 31, 0.9),
@@ -221,6 +230,14 @@ footer p {
   .button-branding {
     font-size: 9px;
     padding: 15px 20px;
+  }
+
+  .card .image-responsive {
+    display: none;
+  }
+
+  .card .embed {
+    aspect-ratio: 16/9;
   }
 
   .grid {
